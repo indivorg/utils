@@ -1,6 +1,7 @@
 {
   "name": "@indivorg/utils",
   "version": "1.0.0",
+  "description": "Collection of reusable functions",
   "publishConfig": {
     "access": "public"
   },
