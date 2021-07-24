@@ -1,0 +1,38 @@
+{
+  "name": "@indivorg/utils",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "utils",
+    "indiv"
+  ],
+  "files": [
+    "dist/"
+  ],
+  "main": "./dist/cjs/main.js",
+  "types": "./dist/esm/main.d.ts",
+  "module": "./dist/esm/main.js",
+  "source": "src/main.ts",
+  "author": "Bjerk AS / Indiv AS",
+  "license": "Apache-2.0",
+  "repository": "indivorg/utils",
+  "devDependencies": {
+    "@types/faker": "^5.5.7",
+    "@types/jest": "^26.0.24",
+    "faker": "^5.5.3",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2",
+    "ts-jest": "^27.0.4",
+    "typescript": "^4"
+  },
+  "volta": {
+    "node": "14.15.0",
+    "yarn": "1.22.10"
+  },
+  "scripts": {
+    "build": "tsc && tsc -p tsconfig.cjs.json",
+    "test": "jest --coverage"
+  }
+}
