@@ -29,7 +29,8 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
 
       - run: yarn install
-
+      - run: yarn test
+      - uses: codecov/codecov-action@v2
       - run: yarn run build
 
       - if: ${{ steps.release.outputs.release_created }}
