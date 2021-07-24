@@ -12,6 +12,11 @@
   <strong>Collection of reusable functions</strong>
 </p>
 
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/indivorg/utils.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/indivorg/utils/context:javascript)
+[![codecov](https://codecov.io/gh/indivorg/utils/branch/main/graph/badge.svg)](https://codecov.io/gh/indivorg/utils)
+[![Maintainability](https://api.codeclimate.com/v1/badges/0e0e81b79244c8d72578/maintainability)](https://codeclimate.com/github/indivorg/utils/maintainability)
+
+
 ## Getting Started
 
 ```sh
