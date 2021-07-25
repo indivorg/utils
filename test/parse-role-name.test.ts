@@ -16,5 +16,5 @@ describe('parse-resource-name.ts', () => {
   it('should fail if resource name is invalid', () => {
     const fail = () => parseResourceName('this-is-invalid');
     expect(fail).toThrow();
-  })
+  });
 });

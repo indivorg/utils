@@ -16,7 +16,6 @@
 [![codecov](https://codecov.io/gh/indivorg/utils/branch/main/graph/badge.svg)](https://codecov.io/gh/indivorg/utils)
 [![Maintainability](https://api.codeclimate.com/v1/badges/0e0e81b79244c8d72578/maintainability)](https://codeclimate.com/github/indivorg/utils/maintainability)
 
-
 ## Getting Started
 
 ```sh
