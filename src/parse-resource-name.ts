@@ -8,8 +8,8 @@ export interface ParsedResource {
  */
 export function parseResourceName(name: string): ParsedResource {
   const [type, id] = name.split(':');
-  if (!type || !id) {
-    throw new Error('Could not parse resource name')
+  if (!type || !id) {
+    throw new Error('Could not parse resource name');
   }
   return { type, id };
 }
