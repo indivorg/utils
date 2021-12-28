@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://www.github.com/indivorg/utils/compare/v1.1.0...v1.2.0) (2021-12-28)
+
+
+### Features
+
+* Add assertWithError ([0e121c6](https://www.github.com/indivorg/utils/commit/0e121c607e119062fc7badf1024fcb60eec65568))
+
 ## [1.1.0](https://www.github.com/indivorg/utils/compare/v1.0.0...v1.1.0) (2021-11-03)
 
 
